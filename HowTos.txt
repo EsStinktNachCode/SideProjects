@@ -1,0 +1,13 @@
+Python venv cheatsheet
+    # Create (project root)
+        python3.14 -m venv env
+    # Activate
+        source env/bin/activate
+    # Install packages
+        python -m pip install <pkg>
+    # Freeze deps
+        python -m pip freeze > requirements.txt
+    # Install from requirements
+        python -m pip install -r requirements.txt
+    # Deactivate
+        deactivate
